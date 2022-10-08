@@ -1,0 +1,121 @@
+.login-form {
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 10%;
+  width: 40%;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+select{
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 15px;
+  width: 632px;
+  height: 50px;
+}
+input{
+  width: 600px;
+  padding: 15px;
+  border: grey 2px solid;
+}
+.another-form{
+  background-color: #f7f7f7;
+  padding-bottom: 20px;
+}
+.close-button{
+  margin-left: auto;
+}
+.input-field{
+  width: 162px;
+  height: 30px;
+  padding: 9px;
+}
+.input-field1{
+  width: 92px;
+  height: 20px;
+  padding: 9px;
+}
+.buttonss{
+  background-color: rgb(217, 216, 216);
+  border: 1px rgb(205, 205, 205) solid;
+  width: 50px;
+  height: 47px;
+  border-right-color: red;
+  border-right-width: 5px ;
+  border-radius: 3px;
+  text-align: center;
+}
+.option1{
+  background-color: white;
+  border: 1px rgb(203, 200, 200) solid;
+  color: rgb(97, 96, 96);
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.option2{
+  background-color: white;
+  border: 1px rgb(203, 200, 200) solid;
+  color: rgb(97, 96, 96);
+  width: 70px;
+  height: 50px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.option3{
+  background-color: white;
+  border: 1px rgb(203, 200, 200) solid;
+  color: rgb(97, 96, 96);
+  width: 70px;
+  height: 50px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.toggle--close{
+  background-color: #2d86cf;
+  color: #fff;
+}
+.btn-align{
+  align-items: flex-start;
+}
+.btn-align1{
+   margin-left: 245px;
+}
+.btn-align2{
+  margin-left: 110px;
+}
+.container1{
+  flex-direction: row;
+  display: flex;
+}
+.container2{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*{
+  margin-top: auto;
+  font-family: sans-serif;
+}
+.another-form-button{
+  flex-direction: row;
+  border-radius: 5px;
+  background: #2e6595;
+  color:#fff;
+  height: 40px;
+  width: 160px;
+  border: none;
+}
+@media screen and (max-width:940px) {
+  .login-form{
+    width: 80%;
+  }
+}

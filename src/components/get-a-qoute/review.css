@@ -1,0 +1,14 @@
+.submitbtn{
+  flex-direction: row;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 40px;
+  width: 80px;
+  border: none;
+}
+.submitbtn:hover{
+  opacity: 0.3;
+}
+.another-form-button:hover{
+  opacity: 0.3;
+}
